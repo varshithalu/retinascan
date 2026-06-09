@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LoanSphere Showcase</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <button id="themeToggle">🌙</button>
+
+    <header>
+
+        <h1>FinWiseAI</h1>
+
+        <p>
+            AI-Powered Personal Finance Management Platform
+        </p>
+
+        <div class="tech-stack">
+            <span>Next.js</span>
+            <span>React</span>
+            <span>Clerk</span>
+            <span>AI OCR</span>
+            <span>PostgreSQL</span>
+        </div>
+
+        <div class="project-actions">
+            <a href="https://github.com/varshithalu/FinWiseAI" class="btn">
+                GitHub Repository
+            </a>
+        </div>
+
+
+    </header>
+
+    <section class="gallery">
+
+        <!-- Home Before Login -->
+
+        <div class="card">
+            <img src="results/home-page-before-login.jpeg" alt="">
+            <div class="overlay">
+                <h3>Home Page</h3>
+                <p>
+                    Public homepage introducing the platform and its features.
+                </p>
+            </div>
+        </div>
+
+        <!-- Register -->
+
+        <div class="card">
+            <img src="results/register-page-by-clerk.jpeg" alt="">
+            <div class="overlay">
+                <h3>Registration Page</h3>
+                <p>
+                    User onboarding powered by Clerk Authentication.
+                </p>
+            </div>
+        </div>
+
+        <!-- Login -->
+
+        <div class="card">
+            <img src="results/login-page-by-clerk.jpeg.jpeg" alt="">
+            <div class="overlay">
+                <h3>Login Page</h3>
+                <p>
+                    Secure sign-in flow managed by Clerk.
+                </p>
+            </div>
+        </div>
+
+        <!-- Home After Login -->
+
+        <div class="card">
+            <img src="results/home-page-after-login.jpeg" alt="">
+            <div class="overlay">
+                <h3>Dashboard Landing</h3>
+                <p>
+                    Personalized home screen after authentication.
+                </p>
+            </div>
+        </div>
+
+        <!-- Finance Dashboard -->
+
+        <div class="card">
+            <img src="results/finance-dashboard.jpeg" alt="">
+            <div class="overlay">
+                <h3>Finance Dashboard</h3>
+                <p>
+                    Overview of income, expenses and financial statistics.
+                </p>
+            </div>
+        </div>
+
+        <!-- Transactions -->
+
+        <div class="card">
+            <img src="results/all-transactions.jpeg" alt="">
+            <div class="overlay">
+                <h3>All Transactions</h3>
+                <p>
+                    Centralized transaction management and tracking.
+                </p>
+            </div>
+        </div>
+
+        <!-- Transaction Overview -->
+
+        <div class="card">
+            <img src="results/transaction-overview.jpeg" alt="">
+            <div class="overlay">
+                <h3>Transaction Overview</h3>
+                <p>
+                    Visual insights and transaction summaries.
+                </p>
+            </div>
+        </div>
+
+        <!-- Add Transaction -->
+
+        <div class="card">
+            <img src="results/add-transaction-page.jpeg" alt="">
+            <div class="overlay">
+                <h3>Add Transaction</h3>
+                <p>
+                    Manual transaction creation and expense tracking.
+                </p>
+            </div>
+        </div>
+
+        <!-- AI Receipt Scanner -->
+
+        <div class="card">
+            <img src="results/ai-scanned-reciept-and-auto-filled-fields.jpeg" alt="">
+            <div class="overlay">
+                <h3>AI Receipt Scanner</h3>
+                <p>
+                    OCR-powered receipt analysis with automatic form filling.
+                </p>
+            </div>
+        </div>
+
+        <!-- Profile -->
+
+        <div class="card">
+            <img src="results/profile-details-handled-by-clerk.jpeg" alt="">
+            <div class="overlay">
+                <h3>User Profile</h3>
+                <p>
+                    Profile and account management handled by Clerk.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="lightbox" id="lightbox">
+
+        <span class="close">&times;</span>
+
+        <button class="nav-btn prev">&#10094;</button>
+
+        <img id="lightboxImg" src="" alt="">
+
+        <button class="nav-btn next">&#10095;</button>
+
+        <div id="lightboxCaption"></div>
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
