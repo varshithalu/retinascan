@@ -1,8 +1,8 @@
 # 👁️RetinaScan: Multimodal Retinal Disease Diagnosis
 
 <p> <h2>🌟 Project Showcase </h2>
-Explore the complete project walkthrough here:
-👉<a href="https://varshithalu.github.io/retinascan/" target="_blank">
+Explore the complete project walkthrough here: <br> <br>
+<a href="https://varshithalu.github.io/retinascan/" target="_blank">
     <img src="https://img.shields.io/badge/View-Live%20Demo-blue?style=for-the-badge" />
   </a>
 </p>
@@ -81,11 +81,11 @@ EfficientNet-B4 inference (PyTorch)
         ↓
 Severity Prediction
       │
-      ├──────────────┐
-      ▼              ▼
+     ───────────────┐
+     ▼              ▼
 Confidence      Grad-CAM
-      │              │
-      └──────┬───────┘
+     │              │
+     └──────┬───────┘
              ▼
 Gemini LLM generates clinical context
         ↓
