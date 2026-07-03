@@ -1,7 +1,8 @@
 # 👁️RetinaScan: Multimodal Retinal Disease Diagnosis
 
 <p> <h2>🌟 Project Showcase </h2>
-  <a href="https://varshithalu.github.io/retinascan/" target="_blank">
+Explore the complete project walkthrough here:
+👉<a href="https://varshithalu.github.io/retinascan/" target="_blank">
     <img src="https://img.shields.io/badge/View-Live%20Demo-blue?style=for-the-badge" />
   </a>
 </p>
@@ -36,6 +37,16 @@ Diabetic Retinopathy (DR) is a leading cause of blindness, yet early detection d
 
 ---
 
+## 📂 Dataset
+
+Model trained on the APTOS 2019 Blindness Detection Dataset.
+
+- Classes: 5
+- Images: 3,662
+- Source: Kaggle
+
+---
+
 ## Tech Stack
 
 ## Frontend 
@@ -62,16 +73,20 @@ Diabetic Retinopathy (DR) is a leading cause of blindness, yet early detection d
 ## AI Workflow
 
 ```
-User uploads retinal image
+Doctor uploads fundus image
         ↓
 Image preprocessing & normalization
         ↓
 EfficientNet-B4 inference (PyTorch)
         ↓
-Severity class + confidence score
-        ↓
-Grad-CAM heatmap generation
-        ↓
+Severity Prediction
+      │
+      ├──────────────┐
+      ▼              ▼
+Confidence      Grad-CAM
+      │              │
+      └──────┬───────┘
+             ▼
 Gemini LLM generates clinical context
         ↓
 FastAPI returns structured response

@@ -2,169 +2,354 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>LoanSphere Showcase</title>
+    <title>RetinaScan AI Showcase</title>
 
     <link rel="stylesheet" href="style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+
 </head>
 
 <body>
 
+    <!-- Theme Toggle -->
+
     <button id="themeToggle">🌙</button>
+
+    <!-- ================= HERO ================= -->
 
     <header>
 
-        <h1>FinWiseAI</h1>
+        <h1>RetinaScan</h1>
 
         <p>
-            AI-Powered Personal Finance Management Platform
+            Multimodal Retinal Disease Diagnosis    
         </p>
 
         <div class="tech-stack">
-            <span>Next.js</span>
-            <span>React</span>
-            <span>Clerk</span>
-            <span>AI OCR</span>
+
+            <span>React.js</span>
+            <span>FastAPI</span>
+            <span>Python</span>
+            <span>Grad-CAM</span>
+            <span>CNN</span>
             <span>PostgreSQL</span>
+            <span>RAG</span>
+
         </div>
 
         <div class="project-actions">
-            <a href="https://github.com/varshithalu/FinWiseAI" class="btn">
+
+            <a href="https://github.com/varshithalu/retinascan" class="btn">
                 GitHub Repository
             </a>
-        </div>
 
+        </div>
 
     </header>
 
-    <section class="gallery">
+    <!-- ================= FEATURES ================= -->
 
-        <!-- Home Before Login -->
+    <section class="section-title">
 
-        <div class="card">
-            <img src="results/home-page-before-login.jpeg" alt="">
-            <div class="overlay">
-                <h3>Home Page</h3>
-                <p>
-                    Public homepage introducing the platform and its features.
-                </p>
-            </div>
+        <h2>🚀 Platform Highlights</h2>
+
+        <p>
+            Intelligent retinal disease screening powered by Artificial Intelligence.
+        </p>
+
+    </section>
+
+    <section class="features">
+
+        <div class="feature">
+            <div class="icon">👁️</div>
+            <h3>AI Retina Screening</h3>
+            <p>
+                Deep Learning based diabetic retinopathy detection from fundus images.
+            </p>
         </div>
 
-        <!-- Register -->
+        <div class="feature">
+            <div class="icon">🩺</div>
+            <h3>Doctor Dashboard</h3>
+            <p>
+                Manage patients, upload scans and monitor screening statistics.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">📈</div>
+            <h3>Clinical Analytics</h3>
+            <p>
+                Disease grading, confidence score and patient insights.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">🔥</div>
+            <h3>Grad-CAM</h3>
+            <p>
+                Explainable AI visualization highlighting affected retinal regions.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">📄</div>
+            <h3>PDF Reports</h3>
+            <p>
+                Generate downloadable clinical reports instantly.
+            </p>
+        </div>
+
+         <div class="feature">
+            <div class="icon">🔗</div>
+            <h3>Patient Portal</h3>
+            <p>
+                Share secure report links so patients can review results anytime.
+            </p>
+        </div>
+
+        <div class="feature">
+            <div class="icon">🤖</div>
+            <h3>AI Assistant</h3>
+            <p>
+                Personalized recommendations and lifestyle guidance.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- ================= GALLERY ================= -->
+
+    <section class="section-title">
+
+        <h2>📸 Project Showcase</h2>
+
+        <p>
+            Explore RetinaScan AI from doctor authentication to AI-powered retinal analysis.
+        </p>
+
+    </section>
+
+    <section class="gallery">
+
+        <!-- Doctor Dashboard -->
 
         <div class="card">
-            <img src="results/register-page-by-clerk.jpeg" alt="">
+
+            <img src="results/doctor-dashboard-page1.jpeg"
+                alt="Doctor Dashboard">
+
             <div class="overlay">
-                <h3>Registration Page</h3>
+
+                <h3>Doctor Dashboard</h3>
+
                 <p>
-                    User onboarding powered by Clerk Authentication.
+                    Main dashboard displaying AI screening statistics, quick actions,
+                    patient metrics and retina analysis overview.
                 </p>
+
             </div>
+
+        </div>
+
+        <!-- Dashboard Analytics -->
+
+        <div class="card">
+
+            <img src="results/doctor-dashboard-page2.jpeg"
+                alt="Analytics Dashboard">
+
+            <div class="overlay">
+
+                <h3>Dashboard Analytics</h3>
+
+                <p>
+                    Recent patients, disease distribution and AI screening
+                    analytics in a single clinical dashboard.
+                </p>
+
+            </div>
+
+        </div>
+
+                <!-- Doctor Registration -->
+
+        <div class="card">
+
+            <img src="results/register-page.jpeg"
+                alt="Doctor Registration">
+
+            <div class="overlay">
+
+                <h3>Doctor Registration</h3>
+
+                <p>
+                    Create physician accounts with secure authentication
+                    and role-based platform access.
+                </p>
+
+            </div>
+
         </div>
 
         <!-- Login -->
 
         <div class="card">
-            <img src="results/login-page-by-clerk.jpeg.jpeg" alt="">
+
+            <img src="results/login-page.jpeg"
+                alt="Login">
+
             <div class="overlay">
-                <h3>Login Page</h3>
+
+                <h3>Doctor Login</h3>
+
                 <p>
-                    Secure sign-in flow managed by Clerk.
+                    Secure authentication portal for registered ophthalmologists
+                    and healthcare professionals.
                 </p>
+
             </div>
+
         </div>
 
-        <!-- Home After Login -->
+
+
+        <!-- Patient Form -->
 
         <div class="card">
-            <img src="results/home-page-after-login.jpeg" alt="">
+
+            <img src="results/patient-form.jpeg"
+                alt="Patient Form">
+
             <div class="overlay">
-                <h3>Dashboard Landing</h3>
+
+                <h3>Patient Registration</h3>
+
                 <p>
-                    Personalized home screen after authentication.
+                    Register new patients with demographic details,
+                    diabetes history and clinical measurements.
                 </p>
+
             </div>
+
         </div>
 
-        <!-- Finance Dashboard -->
+                <!-- Patient Dashboard -->
 
         <div class="card">
-            <img src="results/finance-dashboard.jpeg" alt="">
+
+            <img src="results/patient-dashboard.jpeg"
+                alt="Patient Dashboard">
+
             <div class="overlay">
-                <h3>Finance Dashboard</h3>
+
+                <h3>Patient Dashboard</h3>
+
                 <p>
-                    Overview of income, expenses and financial statistics.
+                    View clinical history, retinal scans,
+                    HbA1c, blood pressure and complete patient profile.
                 </p>
+
             </div>
+
         </div>
 
-        <!-- Transactions -->
+                <!-- Upload Scan -->
 
         <div class="card">
-            <img src="results/all-transactions.jpeg" alt="">
+
+            <img src="results/upload-fundus-scan.jpeg"
+                alt="Upload Fundus Scan">
+
             <div class="overlay">
-                <h3>All Transactions</h3>
+
+                <h3>Fundus Scan Upload</h3>
+
                 <p>
-                    Centralized transaction management and tracking.
+                    Upload retinal fundus images and initiate AI-powered
+                    diabetic retinopathy analysis in seconds.
                 </p>
+
             </div>
+
         </div>
 
-        <!-- Transaction Overview -->
+                <!-- Patient Portal -->
 
         <div class="card">
-            <img src="results/transaction-overview.jpeg" alt="">
+
+            <img src="results/patient-portal-link-page1.jpeg"
+                alt="Patient Portal">
+
             <div class="overlay">
-                <h3>Transaction Overview</h3>
+
+                <h3>Patient Report Portal</h3>
+
                 <p>
-                    Visual insights and transaction summaries.
+                    Secure portal where patients can access retinal diagnosis,
+                    AI confidence score and personalized medical recommendations.
                 </p>
+
             </div>
+
         </div>
 
-        <!-- Add Transaction -->
+        <!-- Doctor Report -->
 
         <div class="card">
-            <img src="results/add-transaction-page.jpeg" alt="">
+
+            <img src="results/scan-report-dashboard.jpeg"
+                alt="Doctor Report">
+
             <div class="overlay">
-                <h3>Add Transaction</h3>
+
+                <h3>Doctor Report & Grad-CAM</h3>
+
                 <p>
-                    Manual transaction creation and expense tracking.
+                    Comprehensive diagnostic report featuring AI prediction,
+                    Grad-CAM heatmap, confidence score and patient portal link.
                 </p>
+
             </div>
+
         </div>
 
-        <!-- AI Receipt Scanner -->
+
+              <!-- AI Recommendations -->
 
         <div class="card">
-            <img src="results/ai-scanned-reciept-and-auto-filled-fields.jpeg" alt="">
+
+            <img src="results/patient-portal-link-page2.jpeg"
+                alt="AI Recommendations">
+
             <div class="overlay">
-                <h3>AI Receipt Scanner</h3>
+
+                <h3>AI Recommendations</h3>
+
                 <p>
-                    OCR-powered receipt analysis with automatic form filling.
+                    Lifestyle guidance generated from retinal screening,
+                    diabetes profile and clinical measurements.
                 </p>
+
             </div>
+
         </div>
 
-        <!-- Profile -->
 
-        <div class="card">
-            <img src="results/profile-details-handled-by-clerk.jpeg" alt="">
-            <div class="overlay">
-                <h3>User Profile</h3>
-                <p>
-                    Profile and account management handled by Clerk.
-                </p>
-            </div>
-        </div>
 
     </section>
+
+
+
+
+    <!-- ================= LIGHTBOX ================= -->
 
     <div class="lightbox" id="lightbox">
 
@@ -172,7 +357,7 @@
 
         <button class="nav-btn prev">&#10094;</button>
 
-        <img id="lightboxImg" src="" alt="">
+        <img id="lightboxImg" src="" alt="RetinaScan Preview" draggable="false">
 
         <button class="nav-btn next">&#10095;</button>
 
