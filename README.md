@@ -60,7 +60,7 @@ Model trained on the APTOS 2019 Blindness Detection Dataset.
 * Python
 * Uvicorn 
 
-## ML / AI 
+## AI/ML
 * PyTorch
 * EfficientNet-B4
 * Grad-CAM
@@ -105,17 +105,6 @@ React frontend renders results
 | 4 | Proliferative DR | Advanced stage with neovascularization |
 
 ---
-
-## Model Details
-
-- **Architecture:** EfficientNet-B4 (pretrained on ImageNet, fine-tuned on APTOS 2019 dataset)
-- **Loss Function:** Weighted Cross-Entropy (to handle class imbalance)
-- **Data Augmentation:** Random horizontal/vertical flips, rotation, color jitter, normalization
-- **Explainability:** Grad-CAM for visual attention on predicted regions
-- **Input Size:** 380×380 px
-
----
-
 
 ## Getting Started
 
