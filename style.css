@@ -1,7 +1,10 @@
-*{   margin:0;   padding:0;   box-sizing:border-box;
+*{   margin:0;   
+    padding:0;   
+    box-sizing:border-box;
 }
 
-html{   scroll-behavior:smooth;
+html{   
+    scroll-behavior:smooth;
 }
 
 /* COLORS */
@@ -62,8 +65,8 @@ header p{
    color:var(--muted);
    max-width:700px;
    margin:auto;
-   line-height:1.8;
-   font-size:1.05rem;
+   line-height:1.5;
+   font-size:25px;
 
 }
 
@@ -86,7 +89,7 @@ header p{
    border-radius:40px;
    box-shadow:var(--shadow);
    transition:.3s;
-   font-size:.95rem;
+   font-size:15px;
 
 }
 
@@ -148,7 +151,7 @@ header p{
 
 .section-title{
    text-align:center;
-   margin:90px 0 45px;
+   margin:90px 0 35px;
 
 }
 
